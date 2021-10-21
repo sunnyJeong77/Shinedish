@@ -6,7 +6,6 @@ public class test {
 		System.out.println("첫 번째 코드작성!");
 		System.out.println("정선희 써봄!");
 		System.out.println("세 번째 코드작성, 정선희 또 써봄~!!!!");
-		System.out.println("세 번째 코드작성, 정선희 또 써봄~!!!!");
 		
 	}
 
