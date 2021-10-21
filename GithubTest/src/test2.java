@@ -6,6 +6,7 @@ public class test2 {
 		System.out.println("두 번째 코드작성!");
 		System.out.println("이번에도 될까?");
 		System.out.println("코드작성!");
+		System.out.println("이원창");
 	}
 
 }
