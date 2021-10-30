@@ -3,10 +3,11 @@ public class test {
 
 	public static void main(String[] args) {
 
-		System.out.println("Ã¹ ¹øÂ° ÄÚµåÀÛ¼º!");
-		System.out.println("Á¤¼±Èñ ½áº½!");
-		System.out.println("¼¼ ¹øÂ° ÄÚµåÀÛ¼º, Á¤¼±Èñ ¶Ç ½áº½~!!!!");
-		System.out.println("³×³×³×¿¡¹øÂ° ÄÚµåÀÛ¼º, Á¤¼±Èñ ¶Ç ½áº½~!!!!");
+		System.out.println("ì²« ë²ˆì§¸ ì½”ë“œì‘ì„±!");
+		System.out.println("ì •ì„ í¬ ì¨ë´„!");
+		System.out.println("ì„¸ ë²ˆì§¸ ì½”ë“œì‘ì„±, ì •ì„ í¬ ë˜ ì¨ë´„~!!!!");
+		System.out.println("ë„¤ë„¤ë„¤ì—ë²ˆì§¸ ì½”ë“œì‘ì„±, ì •ì„ í¬ ë˜ ì¨ë´„~!!!!");
+		System.out.println("Github ì–´ë µë„¹");
 	}
 
 }
