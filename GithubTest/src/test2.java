@@ -3,10 +3,7 @@ public class test2 {
 
 	public static void main(String[] args) {
 
-		System.out.println("µÎ ¹øÂ° ÄÚµåÀÛ¼º!");
-		System.out.println("ÀÌ¹ø¿¡µµ µÉ±î?");
-		System.out.println("ÄÚµåÀÛ¼º!");
-		System.out.println("Çª½¬Å×½ºÆ®!!");
+		System.out.println("ë‹¤ì‹œ í•´ë´…ë‹ˆë‹¹");
 	}
 
 }
