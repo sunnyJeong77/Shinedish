@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShineDish</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        #home {
+            width: 1200px;
+            height: 2130px;
+            margin: 0 auto;
+        }
+
+        #mainbar {
+            background-color: whitesmoke;
+            width: 100%;
+            height: 60px;
+        }
+
+        #mainpic {
+            background-image: url(https://src.hidoc.co.kr/image/lib/2020/11/9/1604911318873_0.jpg);
+            overflow: auto;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 20%;
+        }
+
+        #mainpage {
+            background-color: whitesmoke;
+            display: inline-block;
+            width: 100%;
+            height: 60%;
+        }
+
+        #subbar {
+            background-color: gray;
+            width: 100%;
+            height: 100px;
+        }
+
+        #m_logo {
+            display: inline-block;
+        }
+
+        #upbar {
+            display: inline-block;
+        }
+
+        #weather {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+        }
+
+        #recommend_food {
+            font-size: 30pt;
+            font-style: italic;
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }
+
+        #stsc {
+            display: inline-block;
+            position: absolute;
+            right: 5%;
+            margin: 0%;
+        }
+
+        .col-6 {
+            display: inline-block;
+            width: 32%;
+            height: 50%;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="home">
+        <tr id="mainbar">
+            <h1 id="m_logo">
+                <a href="" id="logo">ShineDish</a>
+            </h1>
+            <h2 id="upbar" style="float : right">
+                <a href="" id="main">메인</a>
+                <a href="" id="reco">맛집추천</a>
+                <a href="" id="myP">마이페이지</a>
+                <a href="" id="login">로그인</a>
+            </h2>
+        </tr>
+        <div id="mainpic">
+            <div>
+                <div id="weather">
+                    <a href="https://weather.naver.com/today/05155108">날씨</a>
+                </div>
+            </div>
+        </div>
+        <div id="mainpage">
+            <div id="recommend_food">
+                <span>오늘은 금요일 입니다.</span>
+                <span>친구들끼리 회식은 어떤가요?</span>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        My Card
+                        <p id="stsc">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </p>
+
+                    </div>
+                    <div>
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed
+                            sem ut malesuada.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6" style="align-self: center;">
+                <div class="card">
+                    <div class="card-header">
+                        My Card
+                        <p id="stsc">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </p>
+
+                    </div>
+                    <div>
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed
+                            sem ut malesuada.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        My Card
+                        <p id="stsc">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </p>
+
+                    </div>
+                    <div>
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas sed
+                            sem ut malesuada.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="subbar"></div>
+    </div>
+
+
+</body>
+
+</html>
